@@ -1,0 +1,17 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "Exercise 1 material",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha -r esm --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.1.3"
+  }
+}
