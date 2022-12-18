@@ -1,5 +1,5 @@
 var chai = require("chai")
-var isDate = require("../src/isNumber")
+var isDate = require("../src/toNumber")
 const expect = chai.expect
 
 describe("toNumber", () => {
