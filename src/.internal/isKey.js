@@ -1,4 +1,5 @@
-import isSymbol from '../isSymbol.js'
+//import isSymbol from '../isSymbol.js'
+isSymbol = require('../isSymbol')
 
 /** Used to match property names within property paths. */
 const reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/
@@ -24,4 +25,5 @@ function isKey(value, object) {
     (object != null && value in Object(object))
 }
 
-export default isKey
+//export default isKey
+module.exports = isKey

@@ -1,4 +1,5 @@
-import isSymbol from '../isSymbol.js'
+//import isSymbol from '../isSymbol.js'
+isSymbol = require('../isSymbol')
 
 /** Used as references for various `Number` constants. */
 const INFINITY = 1 / 0
@@ -18,4 +19,5 @@ function toKey(value) {
   return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result
 }
 
-export default toKey
+//export default toKey
+module.exports = toKey

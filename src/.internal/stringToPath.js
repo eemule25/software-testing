@@ -41,4 +41,5 @@ const stringToPath = memoizeCapped((string) => {
   return result
 })
 
-export default stringToPath
+//export default stringToPath
+module.exports = stringToPath
