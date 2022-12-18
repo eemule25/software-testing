@@ -9,4 +9,7 @@ describe("add", () => {
     it("add function gets two numbers as parameters", () =>{
         expect(add(5, 3)).to.equal(8)
     });
+    it("add function gets array of two numbers as parameters", () =>{
+        expect(add([5, 3])).to.equal(8)
+    });
    })
