@@ -17,4 +17,4 @@ import toString from './toString.js'
 const capitalize = (string) => upperFirst(toString(string).toLowerCase())
 
 
-export default capitalize
+module.exports = capitalize
