@@ -13,6 +13,6 @@ describe("isEmpty", () => {
         expect(isEmpty({})).to.equal(true)
     });
     it("isEmpty gets object as parameter", () =>{
-        expect(isEmpty({"seppo": "Karhu"})).to.equal(true)
+        expect(isEmpty({"seppo": "Karhu"})).to.equal(false)
     });
    })
