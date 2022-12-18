@@ -30,4 +30,4 @@ function drop(array, n=1) {
     : []
 }
 
-export default drop
+module.exports = drop
