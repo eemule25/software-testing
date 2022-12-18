@@ -1,4 +1,4 @@
-import toNumber from './toNumber.js'
+var toNumber = require("../src/toNumber")
 
 /** Used as references for various `Number` constants. */
 const INFINITY = 1 / 0
